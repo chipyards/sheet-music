@@ -12,7 +12,7 @@
 	\new Staff \with { instrumentName = #"Sop" shortInstrumentName = #"S"
 		\consists "Ambitus_engraver" 	% ambitus = tessiture, affichee avant la clef
 		}
-		{	\time 4/4 \tempo 2 = 76
+		{	\time 4/4 \tempo 4 = 85
 			\clef "treble" \armure
 			\set Staff.midiInstrument = #"bright acoustic"
 			\new Voice = "sopo"
@@ -20,10 +20,11 @@
 				  \alternative {
 					{ \sopAa }
 					{ \sopAb }
-					} 
+					} \break
+				  \sopB
 				}
 		} % end staff
-	\new Lyrics { \lyricsto "sopo" { \LsopA 
+	\new Lyrics { \lyricsto "sopo" { \LsopA \LsopB
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- ALTO
@@ -37,10 +38,11 @@
 				  \alternative {
 					{ \altAa }
 					{ \altAb }
-					} 
+					}
+				  \altB
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "altoa" { \LaltA 
+	\new Lyrics { \lyricsto "altoa" { \LaltA \LaltB
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- TENOR
@@ -55,9 +57,10 @@
 					{ \tenAa }
 					{ \tenAb }
 					} 
+				  \tenB
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "tenoa" { \LtenA 
+	\new Lyrics { \lyricsto "tenoa" { \LtenA \LtenB
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- BASS
@@ -72,9 +75,10 @@
 					{ \basAa }
 					{ \basAb }
 					} 
+				  \basB
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "basso" { \LbasA 
+	\new Lyrics { \lyricsto "basso" { \LbasA \LbasB
 			}
 		} % end lyrics
 			
