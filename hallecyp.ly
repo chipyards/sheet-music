@@ -18,8 +18,8 @@
 			\new Voice = "sopo"
 				{ \repeat volta 2 { \sopA }
 				  \alternative {
-					{ a1 }
-					{ b1 }
+					{ \sopAa }
+					{ \sopAb }
 					} 
 				}
 		} % end staff
@@ -35,8 +35,8 @@
 			\new Voice = "altoa"
 				{ \repeat volta 2 { \altA }
 				  \alternative {
-					{ a1 }
-					{ b1 }
+					{ \altAa }
+					{ \altAb }
 					} 
 				}
 		}	% end staff
@@ -52,8 +52,8 @@
 			\new Voice = "tenoa"
 				{ \repeat volta 2 { \tenA }
 				  \alternative {
-					{ a1 }
-					{ b1 }
+					{ \tenAa }
+					{ \tenAb }
 					} 
 				}
 		}	% end staff
@@ -69,8 +69,8 @@
 			\new Voice = "basso"
 				{ \repeat volta 2 { \basA }
 				  \alternative {
-					{ a1 }
-					{ b1 }
+					{ \basAa }
+					{ \basAb }
 					} 
 				}
 		}	% end staff
