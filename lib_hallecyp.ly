@@ -4,7 +4,7 @@ percu = \drummode { r2 mar4 r4 | }
 % canon
 sopA = { r2             bf'8 bf' r8 bf' | a'8 r8  a'  c'' d'' c'' bf' a' | g'8 r8  g' ef'' d'' bf' f' r8 | }
 altA = { r4     ef'8 c' f'   r8  f' d'  | r8  f'  c'4     f'8 d'  f' d'  | r8  f'  ef'4    f'8 d'  f' d' | }
-tenA = { r8 bf8 bf   r8 f    bf  f4     | bf8 bf  a   a   bf4     f8 gs8 | g8  r8  g  a    bf  r8  d' bf | }
+tenA = { r8 bf8 bf   r8 f    bf  f4     | bf8 bf  a   a   bf4     f8 af8 | g8  r8  g  a    bf  r8  d' bf | }
 basA = { ef4    ef      f8   r8  r8 f   | f4      f       bf,     c8 d   | r8 bf8  g  ef   f   r8  r8 f  | }
 sopAa = { d''8 c'' a' c'' bf' f'  d' r8 | }
 altAa = { f'8  f'  c' ef' d'  f'4    r8 | }
@@ -78,12 +78,20 @@ LbasD = \lyricmode { Ha le lu Ha le lu ja -- a -- ah Ha -- a le lu Ha le lu ja -
                      Ha le lu Ha le lu ja -- a -- ah Ha -- a le lu Ha le lu ja -- a -- ah }
 
 % Final
-sopE = { r8 bf'8 g' ef' f' r8 bf'4  | a'4      a'     bf'   af'  | r8 bf'8 g' ef' f' r8 bf'4^"ral."  | a'4      a'     bf'4. r8 | }
-altE = { r8 bf'8 g' ef' f' r8 f'4   | f'4      f'     f'    f'   | r8 bf'8 g' ef' f' r8 f'4   | f'4      f'     f'4.  r8 | }
-tenE = { r8 bf8  g  ef  f  r8 d'4   | c'8  a   c' ef' d'4   c'4  | r8 bf8  g  ef  f  r8 d'4   | c'8  a   c' ef' d'4.  r8 | }
-basE = { r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4  c8 d | r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4. r8 | }                                                       
+sopE = { r8 bf'8 g' ef' f' r8 bf'4  | a'4      a'     bf'   af'  | r8 bf'8 g' ef' f' r8 bf'4^"ral."  | a'4      a'     bf'4. r8 |
+	 g'2 bf'8 r4. | a'2 bf'4 af' | g'2 bf'8 r4. | a'4 g'  f'2\fermata | }
+altE = { r8 bf'8 g' ef' f' r8 f'4   | f'4      f'     f'    f'   | r8 bf'8 g' ef' f' r8 f'4   | f'4      f'     f'4.  r8 |
+	 ef'2 f'8 r4. | f'2 f'4  f'  | ef'2 f'8 r4. | f'4 ef' d'2 | }
+tenE = { r8 bf8  g  ef  f  r8 d'4   | c'8  a   c' ef' d'4   c'4  | r8 bf8  g  ef  f  r8 d'4   | c'8  a   c' ef' d'4.  r8 |
+	 bf2  c'8 r4. | c'2 d'4  c'  | bf2  d'8 r4. | c'2     bf2 | }
+basE = { r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4  c8 d | r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4. r8 |
+	 c2   f8  r4. | f2 bf,4 c8 d | c2   f8  r4. | f2      bf,2 | }                                                       
 
-LsopE = \lyricmode { Ha -- a le lu Ha le lu ja -- ah            Ha -- a le lu Ha le lu ja }
-LaltE = \lyricmode { Ha -- a le lu Ha le lu ja -- ah            Ha -- a le lu Ha le lu ja }
-LtenE = \lyricmode { Ha -- a le lu Ha le -- e lu -- u ja -- ah  Ha -- a le lu Ha le -- e lu -- u ja }
-LbasE = \lyricmode { Ha -- a le lu Ha le lu ja -- a -- ah       Ha -- a le lu Ha le lu jah }
+LsopE = \lyricmode { Ha -- a le lu Ha le lu ja -- ah            Ha -- a le lu Ha le lu ja
+	ou ou ou ou ou ou ou ou ou ou }
+LaltE = \lyricmode { Ha -- a le lu Ha le lu ja -- ah            Ha -- a le lu Ha le lu ja
+	ou ou ou ou ou ou ou ou ou ou }
+LtenE = \lyricmode { Ha -- a le lu Ha le -- e lu -- u ja -- ah  Ha -- a le lu Ha le -- e lu -- u ja
+	ou ou ou ou ou ou ou ou ou }
+LbasE = \lyricmode { Ha -- a le lu Ha le lu ja -- a -- ah       Ha -- a le lu Ha le lu jah
+	ou ou ou ou ou ou ou ou ou ou }
