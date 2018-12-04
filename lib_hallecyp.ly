@@ -38,3 +38,22 @@ LtenB = \lyricmode { Je su -- us is the lamb of Go -- od      Je sus      is the
                      Je su -- us is the lamb of Go -- od      Je -- e sus is the la -- amb o -- of Go -- od }
 LbasB = \lyricmode { Je sus      is the lamb of Go -- o -- od Je -- e sus is the lamb of Go -- od -- od
                      Je sus      is the lamb of Go -- o -- od Je -- e sus is the lamb of Go -- od -- od }
+
+% King of kings
+sopC = { g'4    g'8 a' bf'8 r8 r8  bf' | a'4   a'    bf'  af'   | r8 g'4   a'8  bf' r8 r8 bf'| a'4      a'     bf'4  af'  |
+         g'4    g'8 a' bf'8 r8 bf' r8  | r8 a' r8 a' bf'4 af'   | r8 bf'8 g' ef' f' r8 bf'4  | a'4      a'     bf'   af'  | }
+altC = { ef'4   ef'    f'8  r8 r8  f'  | f'4   f'    f'   f'    | r8 ef'4  f'8   f' r8 r8 f' | f'4      f'     f'    f'   |
+         ef'4   ef'    f'8  r8 f'  r8  | r8 f' r8 f' f'4  f'    | r8 bf'8 g' ef' f' r8 f'4   | f'4      f'     f'    f'   | }
+tenC = { bf4 bf8 c'8   d'   r8 r8  d'  | c'4   c'    d'   c'    | r8 bf4   c'8   d' r8 r8 d' | c'8  a   c' ef' d'4   c'4  |
+         bf4 bf8 c'8   d'   r8 d'  r8  | r8 c' r8 c' d'4  c'    | r8 bf8  g  ef  f  r8 d'4   | c'8  a   c' ef' d'4   c'4  | }
+basC = { ef4    ef     f8   r8 r8  f   | f4    f     bf,  c8 d  | r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4  c8 d |
+         ef4    ef     f8   r8 r8  f   | f4    f     bf,  c8 d  | r8 bf8  g  ef  f  r8 r8 f  | f4       f4     bf,4  c8 d | }                                                           
+
+LsopC = \lyricmode { King o -- of kings, and Lord of lo -- ords King of kings, and Lord of lo -- ords
+                     King o -- of kings, and Lord of lo -- ords Ki -- ing of kings, and Lord of lo -- ords }
+LaltC = \lyricmode { King of kings,      and Lord of lo -- ords King of kings, and Lord of lo -- ords
+                     King of kings,      and Lord of lo -- ords Ki -- ing of kings, and Lord of lo -- ords }
+LtenC = \lyricmode { King o -- of kings, and Lord of lo -- ords King of kings, and Lo -- ord o -- of lo -- ords
+                     King o -- of kings, and Lord of lo -- ords Ki -- ing of kings, and Lo -- ord o -- of lo -- ords }
+LbasC = \lyricmode { King of kings, and Lord of lo -- o -- ords Ki -- ing of kings, and Lord of lo -- o -- rds
+                     King of kings, and Lord of lo -- o -- ords Ki -- ing of kings, and Lord of lo -- o -- rds }
