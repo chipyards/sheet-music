@@ -21,10 +21,10 @@
 					{ \sopAa }
 					{ \sopAb }
 					} \break
-				  \sopB \sopC \sopD
+				  \sopB \break \sopC \break \sopD \break \sopE
 				}
 		} % end staff
-	\new Lyrics { \lyricsto "sopo" { \LsopA \LsopB \LsopC \LsopD
+	\new Lyrics { \lyricsto "sopo" { \LsopA \LsopB \LsopC \LsopD \LsopE
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- ALTO
@@ -39,10 +39,10 @@
 					{ \altAa }
 					{ \altAb }
 					}
-				  \altB \altC \altD
+				  \altB \altC \altD \altE
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "altoa" { \LaltA \LaltB \LaltC \LaltD
+	\new Lyrics { \lyricsto "altoa" { \LaltA \LaltB \LaltC \LaltD \LaltE
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- TENOR
@@ -57,10 +57,10 @@
 					{ \tenAa }
 					{ \tenAb }
 					} 
-				  \tenB \tenC \tenD
+				  \tenB \tenC \tenD \tenE
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "tenoa" { \LtenA \LtenB \LtenC \LtenD
+	\new Lyrics { \lyricsto "tenoa" { \LtenA \LtenB \LtenC \LtenD \LtenE
 			}
 		} % end lyrics
 	% --------------------------------------------------------------------------- BASS
@@ -75,10 +75,10 @@
 					{ \basAa }
 					{ \basAb }
 					} 
-				  \basB \basC \basD
+				  \basB \basC \basD \basE
 				}
 		}	% end staff
-	\new Lyrics { \lyricsto "basso" { \LbasA \LbasB \LbasC \LbasD
+	\new Lyrics { \lyricsto "basso" { \LbasA \LbasB \LbasC \LbasD \LbasE
 			}
 		} % end lyrics
 			
